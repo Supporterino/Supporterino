@@ -4,10 +4,12 @@
 - 💞️ I’m looking to collaborate on anything tbh
 - 📫 How to reach me [try this](mailto:lars@roth-kl.de)
 
-<div style="{display: flex; justify-content: center; align-items: center;}">
+## Stats
+
+<p align='center'>
 <img alt="Supporterino's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Supporterino&count_private=true&show_icons=true&theme=solarized-dark" />
 <img alt="Supporterino's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Supporterino&count_private=true&show_icons=true&theme=solarized-dark" />
-</div>
+</p>
 
 <!---
 Supporterino/Supporterino is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
