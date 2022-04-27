@@ -5,7 +5,7 @@
 - 📫 How to reach me [try this](mailto:lars@roth-kl.de)
 
 <p align="center">
-<img alt="Supporterino's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Supporterino&count_private=true&show_icons=true&theme=solarized-dark)](https://github.com/anuraghazra/github-readme-stats" />
+<img alt="Supporterino's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Supporterino&count_private=true&show_icons=true&theme=solarized-dark" />
 </p>
 <!---
 Supporterino/Supporterino is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
