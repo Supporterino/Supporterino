@@ -5,7 +5,7 @@ on:
   push: {branches: ["master"]}
 jobs:
   github-metrics:
-    runs-on: k8s-runner
+    runs-on: k8s-runner-supporterino
     steps:
       # See action.yml for all options
       - uses: lowlighter/metrics@master
