@@ -8,7 +8,7 @@
 
 ## GitHub Stats
 
-<div style="display: flex; flex-direction: row;">
+<div style="display: flex; flex-direction: row; width: 100%;">
  <img src="https://github.com/Supporterino/Supporterino/blob/main/metrics.classic.svg" />
 </div>
 
