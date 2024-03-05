@@ -8,7 +8,7 @@
 
 ## GitHub Stats
 
-![metrics](https://github.com/Supporterino/Supporterino/blob/main/metrics.classic.svg)
+![metrics](https://github.com/Supporterino/Supporterino/blob/main/github-metrics.svg)
 
 <!---
 Supporterino/Supporterino is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
