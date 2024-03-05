@@ -1,0 +1,20 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 */2 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["master"]}
+jobs:
+  github-metrics:
+    runs-on: k8s-runner
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@master
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_lines: yes
+          config_timezone: Europe/Berlin
+          config_display: columns
+          # Base plugin
+          base: header, repositories, metadata, activity
+          base_indepth: true
