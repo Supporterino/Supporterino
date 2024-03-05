@@ -18,3 +18,25 @@ jobs:
           # Base plugin
           base: header, repositories, metadata, activity
           base_indepth: true
+          # Achievements
+          plugin_achievements: true
+          plugin_achievements_display: detailed
+          # Habits
+          plugin_habits: true
+          plugin_habits_from: 1000
+          plugin_habits_days: 30
+          plugin_habits_facts: true
+          plugin_habits_charts: true
+          # Languages
+          plugin_languages: true
+          plugin_languages_indepth: true
+          # Follow-up
+          plugin_followup: true
+          plugin_followup_sections: user, repositories
+          plugin_followup_indepth: true
+          # Gist
+          plugin_gists: true
+          # Discussions
+          plugin_discussions: true
+          # Calendar
+          plugin_isocalendar: true
