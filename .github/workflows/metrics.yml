@@ -21,6 +21,7 @@ jobs:
           base_indepth: yes
           config_display: large
           config_timezone: Europe/Berlin
+          plugin_lines: yes
           # Achievements
           plugin_achievements: yes
           plugin_achievements_display: detailed
