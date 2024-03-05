@@ -8,9 +8,7 @@
 
 ## GitHub Stats
 
-<div style="display: flex; flex-direction: row; width: 100%;">
- <img src="https://github.com/Supporterino/Supporterino/blob/main/metrics.classic.svg" />
-</div>
+![metrics](https://github.com/Supporterino/Supporterino/blob/main/metrics.classic.svg)
 
 <!---
 Supporterino/Supporterino is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
