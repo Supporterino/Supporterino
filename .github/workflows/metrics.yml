@@ -1,8 +1,8 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 */2 * * *"}]
+  schedule: [{cron: "0 * * * *"}]
   workflow_dispatch:
-  push: {branches: ["master"]}
+  push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
     runs-on: k8s-runner-supporterino
@@ -13,33 +13,59 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@master
         with:
-          filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_lines: yes
-          config_timezone: Europe/Berlin
+          # Options
+          user: Supporterino
+          template: classic
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
           config_display: large
-          # Base plugin
-          base: header, repositories, metadata, activity
-          base_indepth: true
+          config_timezone: Europe/Berlin
           # Achievements
-          plugin_achievements: true
+          plugin_achievements: yes
           plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
           # Habits
-          plugin_habits: true
-          plugin_habits_from: 1000
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
           plugin_habits_days: 30
-          plugin_habits_facts: true
-          plugin_habits_charts: true
-          # Languages
-          plugin_languages: true
-          plugin_languages_indepth: true
-          # Follow-up
-          plugin_followup: true
-          plugin_followup_sections: user, repositories
-          plugin_followup_indepth: true
+          plugin_habits_facts: yes
+          plugin_habits_from: 600
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          plugin_habits_trim: yes
+          # Langugages
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          # Calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          # Notable
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit
+          # Follow up
+          plugin_followup: yes
+          plugin_followup_archived: yes
+          plugin_followup_indepth: yes
+          plugin_followup_sections: repositories, user
           # Gist
-          plugin_gists: true
+          plugin_gists: yes
+          # Forks
+          repositories_forks: yes
           # Discussions
           plugin_discussions: true
-          # Calendar
-          plugin_isocalendar: true
