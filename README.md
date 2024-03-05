@@ -9,8 +9,7 @@
 ## GitHub Stats
 
 <div style="display: flex; flex-direction: row;">
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Supporterino&theme=transparent&border_color=434d58&layout=default" />
- <img src="https://github-readme-stats.vercel.app/api?username=Supporterino&show_icons=true&count_private=true&theme=transparent&include_all_commits=true&border_color=434d58&line_height=40" />
+ <img src="https://github.com/Supporterino/Supporterino/blob/main/metrics.classic.svg" />
 </div>
 
 <!---
