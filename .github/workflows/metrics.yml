@@ -7,6 +7,9 @@ jobs:
   github-metrics:
     runs-on: k8s-runner-supporterino
     steps:
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v2.1.0
+            
       # See action.yml for all options
       - uses: lowlighter/metrics@master
         with:
