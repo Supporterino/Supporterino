@@ -5,7 +5,6 @@ on:
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
-    runs-on: k8s-runner-supporterino
     steps:
       - name: Install jq
         uses: dcarbone/install-jq-action@v2.1.0
