@@ -1,72 +1,39 @@
-name: Metrics
+name: README build
+permissions:
+  contents: write
 on:
-  schedule: [{cron: "0 18 * * *"}]
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 6 * * *"
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Install jq
-        uses: dcarbone/install-jq-action@v2.1.0
-            
-      # See action.yml for all options
-      - uses: lowlighter/metrics@master
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          # Options
-          user: Supporterino
-          template: classic
-          base: header, activity, community, repositories, metadata
-          base_indepth: yes
-          config_display: large
-          config_timezone: Europe/Berlin
-          plugin_lines: yes
-          # Achievements
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          # Habits
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_from: 600
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
-          plugin_habits_trim: yes
-          # Langugages
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-          # Calendar
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          # Notable
-          plugin_notable: yes
-          plugin_notable_from: all
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
-          plugin_notable_types: commit
-          # Follow up
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_indepth: yes
-          plugin_followup_sections: repositories, user
-          # Gist
-          plugin_gists: yes
-          # Forks
-          repositories_forks: yes
-          # Discussions
-          plugin_discussions: true
+          fetch-depth: 1
+      - name: Get Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.14'
+          cache: 'pip'
+          cache-dependency-path: cache/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r cache/requirements.txt
+      - name: Update README file
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+        run: python today.py
+      - name: Commit
+        run: |-
+          git add .
+          git diff
+          git config --global user.email "github-actions-bot@mzafarm.github.io"
+          git config --global user.name "MZaFaRM/GitHub-Actions-Bot"
+          git commit -m "[BOT] auto update README - $(date +'%Y-%m-%d')" -a || echo "No changes to commit"
+          git push
