@@ -9,16 +9,14 @@ font-display: swap;
 size-adjust: 109%;
 }
 .key {fill: #AE75DA;}
-.value {fill: #a5d6ff;}
-.addColor {fill: #3fb950;}
-.delColor {fill: #f85149;}
-.cc {fill: #616e7f;}
+.value {fill: #0a3069;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #c2cfde;}
 text, tspan {white-space: pre;}
-pad {opacity: 0.1;}
 </style>
-<rect width="1500px" height="1050px" fill="#161b22" rx="15"/>
-
-<text x="15" y="30" fill="#c9d1d9" class="ascii">
+<rect width="1500px" height="1050px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" fill="#30363d" class="ascii">
 <tspan x="15" y="30">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
 <tspan x="15" y="50">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
 <tspan x="15" y="70">@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@+#+:-+@%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@+%*@@@@@@@@@@</tspan>
@@ -72,18 +70,16 @@ pad {opacity: 0.1;}
 <tspan x="15" y="1030">@@@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@</tspan>
 </text>
 
-
 <circle cx="1200" cy="74" r="8" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.6"/>
 <circle cx="1200" cy="74" r="4" fill="#22c55e">
   <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
 </circle>
 
-
-<text x="850" y="50" fill="#c9d1d9">
+<text x="850" y="50" fill="#24292f">
 <tspan x="850" y="50">github@supporterino</tspan> -———————————————————————————————————————
 <tspan x="850" y="80" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">  Running (experimental)</tspan>
 <tspan x="850" y="110" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">Lars Roth</tspan>
-<tspan x="850" y="140" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">28 years, 9 months, 2 days</tspan>
+<tspan x="850" y="140" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc">{{ age | dots(49) }}</tspan><tspan class="value">{{ age }}</tspan>
 <tspan x="850" y="170" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">Karlsruhe, Germany</tspan>
 <tspan x="850" y="200" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Platform Engineer</tspan>
 <tspan x="850" y="230" class="cc">. </tspan><tspan class="key">Environment</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">VSCode, IntelliJ</tspan>
@@ -99,9 +95,9 @@ pad {opacity: 0.1;}
 <tspan x="850" y="530" class="cc">. </tspan><tspan class="key">Documentation</tspan>:<tspan class="cc"> ........................... </tspan><a href="https://supporterino.de" target="_blank"><tspan class="value">supporterino.de</tspan></a>
 <tspan x="850" y="560" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................................... </tspan><a href="https://www.linkedin.com/in/lars-roth-08a256298/" target="_blank"><tspan class="value">in/lars-roth</tspan></a>
 <tspan x="850" y="590">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
-<tspan x="850" y="620" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">58</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">62</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">242</tspan>
-<tspan x="850" y="650" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">2,263</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">17</tspan>
-<tspan x="850" y="680" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">47,991,529</tspan> ( <tspan class="addColor">51,369,633</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">3,378,104</tspan><tspan class="delColor">--</tspan> )
+<tspan x="850" y="620" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc">{{ repos | dots(7) }}</tspan><tspan class="value">{{ repos }}</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">{{ contributed_repos }}</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc">{{ stars | dots(14) }}</tspan><tspan class="value">{{ stars }}</tspan>
+<tspan x="850" y="650" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc">{{ commits | dots(23) }}</tspan><tspan class="value">{{ commits }}</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc">{{ followers | dots(10) }}</tspan><tspan class="value">{{ followers }}</tspan>
+<tspan x="850" y="680" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc">{{ loc_net | dots(13) }}</tspan><tspan class="value">{{ loc_net }}</tspan> ( <tspan class="addColor">{{ loc_added }}</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">{{ loc_deleted }}</tspan><tspan class="delColor">--</tspan> )
 <tspan x="850" y="710">----—————————————————————————————————————————————————————-—-</tspan>
 </text>
 </svg>
