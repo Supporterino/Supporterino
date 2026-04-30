@@ -1,0 +1,161 @@
+{
+  "username": "Supporterino",
+  "repos": {
+    "Supporterino/Snake": {
+      "total_commits": 37,
+      "my_commits": 36,
+      "additions": 10492,
+      "deletions": 323
+    },
+    "Supporterino/Primegenerator": {
+      "total_commits": 38,
+      "my_commits": 23,
+      "additions": 441,
+      "deletions": 104
+    },
+    "Supporterino/TSP_SE1": {
+      "total_commits": 160,
+      "my_commits": 61,
+      "additions": 17210,
+      "deletions": 3182
+    },
+    "niklaskoopmann/SE_Component": {
+      "total_commits": 109,
+      "my_commits": 5,
+      "additions": 4,
+      "deletions": 1
+    },
+    "niklaskoopmann/TI4_Compilerbau": {
+      "total_commits": 86,
+      "my_commits": 14,
+      "additions": 41901,
+      "deletions": 239
+    },
+    "Supporterino/SE1": {
+      "total_commits": 0,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "maxlutz98/friendscal": {
+      "total_commits": 398,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "Supporterino/TextAnalyzer": {
+      "total_commits": 51,
+      "my_commits": 51,
+      "additions": 40331,
+      "deletions": 9864
+    },
+    "Supporterino/IISLogAnalyzer": {
+      "total_commits": 36,
+      "my_commits": 36,
+      "additions": 3774,
+      "deletions": 626
+    },
+    "Supporterino/Strava_Light": {
+      "total_commits": 383,
+      "my_commits": 103,
+      "additions": 13608,
+      "deletions": 6425
+    },
+    "Supporterino/Genetic_Algorithm": {
+      "total_commits": 72,
+      "my_commits": 40,
+      "additions": 2708,
+      "deletions": 371
+    },
+    "Supporterino/Studienarbeit": {
+      "total_commits": 38,
+      "my_commits": 38,
+      "additions": 6611064,
+      "deletions": 124734
+    },
+    "brumhard/IQMol-Destruction": {
+      "total_commits": 22,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "Supporterino/Bachelorarbeit": {
+      "total_commits": 91,
+      "my_commits": 28,
+      "additions": 2616,
+      "deletions": 50
+    },
+    "Supporterino/Supporterino": {
+      "total_commits": 699,
+      "my_commits": 39,
+      "additions": 157,
+      "deletions": 69
+    },
+    "Supporterino/hyprland-dotfiles": {
+      "total_commits": 9,
+      "my_commits": 9,
+      "additions": 25750,
+      "deletions": 128
+    },
+    "Supporterino/truenas-graphite-to-prometheus": {
+      "total_commits": 185,
+      "my_commits": 120,
+      "additions": 21542,
+      "deletions": 9781
+    },
+    "Supporterino/photo-organizer": {
+      "total_commits": 70,
+      "my_commits": 55,
+      "additions": 4444,
+      "deletions": 1847
+    },
+    "Supporterino/shelly_exporter": {
+      "total_commits": 54,
+      "my_commits": 53,
+      "additions": 4707,
+      "deletions": 1536
+    },
+    "Supporterino/Pi-Hole-Operator": {
+      "total_commits": 90,
+      "my_commits": 84,
+      "additions": 17075,
+      "deletions": 5150
+    },
+    "Supporterino/Path-Converter": {
+      "total_commits": 16,
+      "my_commits": 16,
+      "additions": 30210,
+      "deletions": 2900
+    },
+    "Supporterino/dashboards": {
+      "total_commits": 96,
+      "my_commits": 13,
+      "additions": 25615,
+      "deletions": 48230
+    },
+    "Supporterino/WizCast-Frontend": {
+      "total_commits": 68,
+      "my_commits": 68,
+      "additions": 19287,
+      "deletions": 5359
+    },
+    "Supporterino/TypeScript-Home-Automation": {
+      "total_commits": 156,
+      "my_commits": 120,
+      "additions": 35201,
+      "deletions": 8953
+    },
+    "Supporterino/Shelly-Manager": {
+      "total_commits": 43,
+      "my_commits": 40,
+      "additions": 29476,
+      "deletions": 8203
+    },
+    "Supporterino/FreezerTracker": {
+      "total_commits": 54,
+      "my_commits": 23,
+      "additions": 59664,
+      "deletions": 21387
+    }
+  }
+}

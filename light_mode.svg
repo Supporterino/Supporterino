@@ -79,7 +79,7 @@ text, tspan {white-space: pre;}
 <tspan x="850" y="50">github@supporterino</tspan> -———————————————————————————————————————
 <tspan x="850" y="80" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">  Running (experimental)</tspan>
 <tspan x="850" y="110" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">Lars Roth</tspan>
-<tspan x="850" y="140" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">28 years, 9 months, 2 days</tspan>
+<tspan x="850" y="140" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">28 years, 10 months, 6 days</tspan>
 <tspan x="850" y="170" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">Karlsruhe, Germany</tspan>
 <tspan x="850" y="200" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">Platform Engineer</tspan>
 <tspan x="850" y="230" class="cc">. </tspan><tspan class="key">Environment</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">VSCode, IntelliJ</tspan>
@@ -95,9 +95,9 @@ text, tspan {white-space: pre;}
 <tspan x="850" y="530" class="cc">. </tspan><tspan class="key">Documentation</tspan>:<tspan class="cc"> ........................... </tspan><a href="https://supporterino.de" target="_blank"><tspan class="value">supporterino.de</tspan></a>
 <tspan x="850" y="560" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................................... </tspan><a href="https://www.linkedin.com/in/lars-roth-08a256298/" target="_blank"><tspan class="value">in/lars-roth</tspan></a>
 <tspan x="850" y="590">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
-<tspan x="850" y="620" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">58</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">62</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">242</tspan>
-<tspan x="850" y="650" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">2,263</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">17</tspan>
-<tspan x="850" y="680" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">47,991,529</tspan> ( <tspan class="addColor">51,369,633</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">3,378,104</tspan><tspan class="delColor">--</tspan> )
+<tspan x="850" y="620" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">22</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">26</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">246</tspan>
+<tspan x="850" y="650" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">1,075</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">17</tspan>
+<tspan x="850" y="680" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">6,757,815</tspan> ( <tspan class="addColor">7,017,277</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor">259,462</tspan><tspan class="delColor">--</tspan> )
 <tspan x="850" y="710">----—————————————————————————————————————————————————————-—-</tspan>
 </text>
 </svg>
