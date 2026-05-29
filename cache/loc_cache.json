@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 726,
+      "total_commits": 727,
       "my_commits": 39,
       "additions": 157,
       "deletions": 69
@@ -156,6 +156,12 @@
       "my_commits": 40,
       "additions": 65835,
       "deletions": 22304
+    },
+    "Supporterino/Technitium-Prometheus-Exporter": {
+      "total_commits": 43,
+      "my_commits": 42,
+      "additions": 7271,
+      "deletions": 1477
     }
   }
 }
