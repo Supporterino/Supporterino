@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 745,
+      "total_commits": 746,
       "my_commits": 39,
       "additions": 157,
       "deletions": 69
@@ -162,6 +162,18 @@
       "my_commits": 47,
       "additions": 7411,
       "deletions": 1529
+    },
+    "Supporterino/kener-ctl": {
+      "total_commits": 24,
+      "my_commits": 24,
+      "additions": 20331,
+      "deletions": 4260
+    },
+    "Supporterino/homebrew-kener-ctl": {
+      "total_commits": 5,
+      "my_commits": 5,
+      "additions": 62,
+      "deletions": 15
     }
   }
 }
