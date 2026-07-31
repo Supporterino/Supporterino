@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 789,
+      "total_commits": 790,
       "my_commits": 39,
       "additions": 157,
       "deletions": 69
@@ -186,6 +186,12 @@
       "my_commits": 0,
       "additions": 0,
       "deletions": 0
+    },
+    "Supporterino/animal-shelter": {
+      "total_commits": 26,
+      "my_commits": 5,
+      "additions": 39,
+      "deletions": 42
     }
   }
 }
