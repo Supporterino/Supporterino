@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 791,
+      "total_commits": 792,
       "my_commits": 39,
       "additions": 157,
       "deletions": 69
@@ -140,10 +140,10 @@
       "deletions": 15790
     },
     "Supporterino/TypeScript-Home-Automation": {
-      "total_commits": 182,
-      "my_commits": 133,
-      "additions": 40130,
-      "deletions": 9246
+      "total_commits": 191,
+      "my_commits": 142,
+      "additions": 42017,
+      "deletions": 9305
     },
     "Supporterino/Shelly-Manager": {
       "total_commits": 85,
@@ -152,10 +152,10 @@
       "deletions": 11436
     },
     "Supporterino/FreezerTracker": {
-      "total_commits": 71,
-      "my_commits": 40,
-      "additions": 65835,
-      "deletions": 22304
+      "total_commits": 73,
+      "my_commits": 42,
+      "additions": 65841,
+      "deletions": 22310
     },
     "Supporterino/Technitium-Prometheus-Exporter": {
       "total_commits": 48,
@@ -188,10 +188,10 @@
       "deletions": 0
     },
     "Supporterino/animal-shelter": {
-      "total_commits": 59,
-      "my_commits": 19,
-      "additions": 313,
-      "deletions": 111
+      "total_commits": 66,
+      "my_commits": 26,
+      "additions": 600,
+      "deletions": 204
     }
   }
 }
