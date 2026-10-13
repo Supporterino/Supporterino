@@ -199,8 +199,11 @@ class GitHubAPI:
             return repos["totalCount"]
 
         # count_type == 'stars'
+        # GitHub may return null nodes (e.g. repos the token can no longer access)
         total_stars = sum(
-            edge["node"]["stargazers"]["totalCount"] for edge in repos["edges"]
+            edge["node"]["stargazers"]["totalCount"]
+            for edge in repos["edges"]
+            if edge["node"] is not None
         )
         if repos["pageInfo"]["hasNextPage"]:
             total_stars += self.get_repos_or_stars(
@@ -251,7 +254,8 @@ class GitHubAPI:
         }
         data = self._request(query, variables)
         repos = data["data"]["user"]["repositories"]
-        edges = repos["edges"]
+        # Drop null nodes (repos the token can no longer access)
+        edges = [edge for edge in repos["edges"] if edge["node"] is not None]
 
         if repos["pageInfo"]["hasNextPage"]:
             edges += self.get_all_repos(
@@ -315,7 +319,9 @@ class GitHubAPI:
 
         for edge in history["edges"]:
             node = edge["node"]
-            if node["author"]["user"] == self.owner_id:
+            # author/author.user can be null (unlinked or deleted accounts)
+            author = node.get("author") or {}
+            if author.get("user") == self.owner_id:
                 my_commits += 1
                 additions += node["additions"]
                 deletions += node["deletions"]
