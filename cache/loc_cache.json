@@ -86,10 +86,10 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 804,
-      "my_commits": 39,
-      "additions": 157,
-      "deletions": 69
+      "total_commits": 806,
+      "my_commits": 40,
+      "additions": 168,
+      "deletions": 74
     },
     "Supporterino/hyprland-dotfiles": {
       "total_commits": 9,
@@ -110,10 +110,10 @@
       "deletions": 1847
     },
     "Supporterino/shelly_exporter": {
-      "total_commits": 56,
-      "my_commits": 54,
-      "additions": 4708,
-      "deletions": 1537
+      "total_commits": 73,
+      "my_commits": 71,
+      "additions": 40837,
+      "deletions": 5274
     },
     "Supporterino/Pi-Hole-Operator": {
       "total_commits": 90,
@@ -128,22 +128,22 @@
       "deletions": 2900
     },
     "Supporterino/dashboards": {
-      "total_commits": 103,
-      "my_commits": 14,
-      "additions": 26395,
-      "deletions": 48530
+      "total_commits": 109,
+      "my_commits": 20,
+      "additions": 61083,
+      "deletions": 78626
     },
     "Supporterino/WizCast-Frontend": {
-      "total_commits": 118,
-      "my_commits": 118,
-      "additions": 28403,
-      "deletions": 15790
+      "total_commits": 127,
+      "my_commits": 127,
+      "additions": 29962,
+      "deletions": 16842
     },
     "Supporterino/TypeScript-Home-Automation": {
-      "total_commits": 192,
-      "my_commits": 142,
-      "additions": 42017,
-      "deletions": 9305
+      "total_commits": 266,
+      "my_commits": 223,
+      "additions": 154482,
+      "deletions": 22642
     },
     "Supporterino/Shelly-Manager": {
       "total_commits": 89,
@@ -158,10 +158,10 @@
       "deletions": 22310
     },
     "Supporterino/Technitium-Prometheus-Exporter": {
-      "total_commits": 48,
-      "my_commits": 47,
-      "additions": 7411,
-      "deletions": 1529
+      "total_commits": 63,
+      "my_commits": 62,
+      "additions": 8163,
+      "deletions": 1770
     },
     "Supporterino/kener-ctl": {
       "total_commits": 38,
@@ -176,7 +176,7 @@
       "deletions": 15
     },
     "Supporterino/oracle-db-appdev-monitoring": {
-      "total_commits": 233,
+      "total_commits": 255,
       "my_commits": 2,
       "additions": 50,
       "deletions": 6
@@ -192,6 +192,12 @@
       "my_commits": 26,
       "additions": 600,
       "deletions": 204
+    },
+    "Supporterino/UniFi-Operator": {
+      "total_commits": 21,
+      "my_commits": 21,
+      "additions": 46021,
+      "deletions": 2215
     }
   }
 }
