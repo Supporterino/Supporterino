@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 808,
+      "total_commits": 809,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -140,10 +140,10 @@
       "deletions": 16842
     },
     "Supporterino/TypeScript-Home-Automation": {
-      "total_commits": 293,
-      "my_commits": 248,
-      "additions": 265188,
-      "deletions": 26997
+      "total_commits": 296,
+      "my_commits": 250,
+      "additions": 274478,
+      "deletions": 27777
     },
     "Supporterino/Shelly-Manager": {
       "total_commits": 89,
@@ -194,10 +194,10 @@
       "deletions": 204
     },
     "Supporterino/UniFi-Operator": {
-      "total_commits": 21,
-      "my_commits": 21,
-      "additions": 46021,
-      "deletions": 2215
+      "total_commits": 25,
+      "my_commits": 25,
+      "additions": 87449,
+      "deletions": 3562
     }
   }
 }
