@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 809,
+      "total_commits": 810,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -140,10 +140,10 @@
       "deletions": 16842
     },
     "Supporterino/TypeScript-Home-Automation": {
-      "total_commits": 296,
-      "my_commits": 250,
-      "additions": 274478,
-      "deletions": 27777
+      "total_commits": 311,
+      "my_commits": 264,
+      "additions": 295558,
+      "deletions": 32612
     },
     "Supporterino/Shelly-Manager": {
       "total_commits": 89,
@@ -198,6 +198,12 @@
       "my_commits": 25,
       "additions": 87449,
       "deletions": 3562
+    },
+    "Supporterino/BunScale": {
+      "total_commits": 0,
+      "my_commits": 0,
+      "additions": 0,
+      "deletions": 0
     }
   }
 }
