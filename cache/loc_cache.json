@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 815,
+      "total_commits": 816,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -200,10 +200,10 @@
       "deletions": 3562
     },
     "Supporterino/BunScale": {
-      "total_commits": 0,
-      "my_commits": 0,
-      "additions": 0,
-      "deletions": 0
+      "total_commits": 112,
+      "my_commits": 112,
+      "additions": 173293,
+      "deletions": 4089
     }
   }
 }
