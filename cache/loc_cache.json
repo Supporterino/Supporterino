@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 822,
+      "total_commits": 823,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -176,10 +176,10 @@
       "deletions": 15
     },
     "Supporterino/oracle-db-appdev-monitoring": {
-      "total_commits": 255,
-      "my_commits": 2,
-      "additions": 50,
-      "deletions": 6
+      "total_commits": 270,
+      "my_commits": 3,
+      "additions": 633,
+      "deletions": 20
     },
     "Supporterino/primecrunch-docker": {
       "total_commits": 3,
@@ -206,10 +206,10 @@
       "deletions": 7082
     },
     "Supporterino/AI-Factory": {
-      "total_commits": 100,
-      "my_commits": 100,
-      "additions": 52440,
-      "deletions": 3156
+      "total_commits": 107,
+      "my_commits": 107,
+      "additions": 54586,
+      "deletions": 3356
     }
   }
 }
