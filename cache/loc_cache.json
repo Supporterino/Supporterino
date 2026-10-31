@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 824,
+      "total_commits": 825,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -210,6 +210,12 @@
       "my_commits": 124,
       "additions": 59889,
       "deletions": 3639
+    },
+    "Supporterino/Clarion": {
+      "total_commits": 3,
+      "my_commits": 3,
+      "additions": 10643,
+      "deletions": 1
     }
   }
 }
