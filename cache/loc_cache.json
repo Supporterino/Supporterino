@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 828,
+      "total_commits": 829,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -194,10 +194,10 @@
       "deletions": 204
     },
     "Supporterino/UniFi-Operator": {
-      "total_commits": 38,
-      "my_commits": 38,
-      "additions": 95191,
-      "deletions": 4082
+      "total_commits": 45,
+      "my_commits": 45,
+      "additions": 102943,
+      "deletions": 4671
     },
     "Supporterino/BunScale": {
       "total_commits": 195,
@@ -206,16 +206,16 @@
       "deletions": 7082
     },
     "Supporterino/AI-Factory": {
-      "total_commits": 144,
-      "my_commits": 144,
-      "additions": 64655,
-      "deletions": 3939
+      "total_commits": 150,
+      "my_commits": 150,
+      "additions": 65151,
+      "deletions": 3975
     },
     "Supporterino/Clarion": {
-      "total_commits": 3,
-      "my_commits": 3,
-      "additions": 10643,
-      "deletions": 1
+      "total_commits": 211,
+      "my_commits": 211,
+      "additions": 51706,
+      "deletions": 1614
     }
   }
 }
