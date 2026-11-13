@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 836,
+      "total_commits": 837,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -205,17 +205,17 @@
       "additions": 216982,
       "deletions": 7082
     },
-    "Supporterino/AI-Factory": {
-      "total_commits": 150,
-      "my_commits": 150,
-      "additions": 65151,
-      "deletions": 3975
-    },
     "Supporterino/Clarion": {
       "total_commits": 211,
       "my_commits": 211,
       "additions": 51706,
       "deletions": 1614
+    },
+    "Supporterino/Loomwright": {
+      "total_commits": 150,
+      "my_commits": 150,
+      "additions": 65151,
+      "deletions": 3975
     }
   }
 }
