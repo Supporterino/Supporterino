@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 847,
+      "total_commits": 848,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -212,10 +212,10 @@
       "deletions": 1614
     },
     "Supporterino/Loomwright": {
-      "total_commits": 349,
-      "my_commits": 349,
-      "additions": 170135,
-      "deletions": 11152
+      "total_commits": 481,
+      "my_commits": 481,
+      "additions": 215588,
+      "deletions": 15001
     }
   }
 }
