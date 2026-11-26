@@ -86,7 +86,7 @@
       "deletions": 50
     },
     "Supporterino/Supporterino": {
-      "total_commits": 849,
+      "total_commits": 850,
       "my_commits": 40,
       "additions": 168,
       "deletions": 74
@@ -122,10 +122,10 @@
       "deletions": 5150
     },
     "Supporterino/Path-Converter": {
-      "total_commits": 16,
-      "my_commits": 16,
-      "additions": 30210,
-      "deletions": 2900
+      "total_commits": 77,
+      "my_commits": 77,
+      "additions": 60627,
+      "deletions": 21634
     },
     "Supporterino/dashboards": {
       "total_commits": 110,
